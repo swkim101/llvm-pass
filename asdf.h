@@ -18,6 +18,6 @@ struct mystruct {
   char charfield;
 };
 
-
+struct mystruct* create();
 
 #endif /* ASDF_H */

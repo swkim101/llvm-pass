@@ -3,8 +3,9 @@
 
 int main () {
   printf("llvm-pass example\n");
-  printf("const1: %d\n", CONST1);
-  printf("enum4: %d\n", ENUM4);
+  struct mystruct *a = create();
+  printf("a->intfield: %d\n", a->intfield);
+  printf("a->charfield: %d\n", a->charfield);
 
   return 0;
 }
