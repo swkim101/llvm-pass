@@ -1,0 +1,5 @@
+# llvm-pass example
+
+```
+make
+```
